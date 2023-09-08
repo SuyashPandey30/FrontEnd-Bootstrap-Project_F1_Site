@@ -7,12 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <style>
         body {
-            animation: "bg-animation" 0.3s x 10ms 2 up 10%;
             background: radial-gradient(rgb(102, 215, 41), rgb(138, 18, 18));
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 250vh;
+            height: auto;
         }
         .col-md-4{
             margin-bottom: 10px;
@@ -22,40 +21,42 @@
             
         }
         .card-img-top:hover{
-            opacity: 0.6;
+            opacity:0.6;
             padding:3%;
             justify-content: center;
             background-color:transparent;
         }
-        
+        .navbar{
+            background-color:antiquewhite;
+            display: flex;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
     <div class="container">
     <div class="row justify-content-center">
-    <nav class="navbar bg-body-tertiary" style="margin-bottom: 10px; background-color: transparent;">
+    <nav class="navbar" style="margin-bottom: 10px;">
         <div class="container-fluid" >
-            <a class="navbar-brand" href="#">
-                <img src="https://account.formula1.com/images/f1_logo.svg" alt="Logo" style="margin:0;" height="35px" width="40px" class="d-inline-block align-text-top">
-                <strong style="font-style: italic; margin-left: 100vh; size: 15rem;">
-                   My Top 10 Current F1 Drivers
-                </strong>
+            <a class="navbar-brand " style="font-size: xx-large; font-family: fantasy;" href="#">
+                <img src="https://account.formula1.com/images/f1_logo.svg" alt="Logo" style="margin:0;" height="30px" width="100px" class="d-inline-block align-text-top">
+                    My Top 10 F1 Drivers 
             </a>
         </div>
     </nav>
             <div class="col-md-4">
                 <div class="card" style="background-color: rgb(10, 143, 238);">
-                    <img src="https://media.formula1.com/image/upload/f_auto/q_auto/v1693755220/fom-website/2023/Italy/verstappen-monza-win-2023.png.transform/9col/image.png" class="card-img-top" alt="Max Verstappen">
+                    <img src="https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/verstappen.jpg.img.1920.medium.jpg/1677069646195.jpg" class="card-img-top" alt="Max Verstappen">
                     <div class="card-body">
                         <h5 class="card-title">Max Verstappen</h5>
-                        <p class="card-text" ">Max Emilian Verstappen is a Belgian-Dutch racing driver and the 2021 and 2022 Formula One World Champion. He competes under the Dutch flag in Formula One with Red Bull Racing.He is also known as The Dutch Lion</p>
+                        <p class="card-text"> Max Emilian Verstappen is a Belgian-Dutch racing driver and the 2021 and 2022 Formula One World Champion. He competes under the Dutch flag in Formula One with Red Bull Racing.He is also known as The Dutch Lion</p>
                         <a href="https://en.wikipedia.org/wiki/Max_Verstappen" class="btn btn-primary">More Details</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card" style="background-color: rgb(10, 143, 238);">
-                    <img src="https://www.si.com/.image/t_share/MTg5ODI2NDA2MzU4NzIyMjM2/perez-win-monaco.jpg" class="card-img-top" alt="Card Title">
+                    <img src="https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/perez.jpg.img.1920.medium.jpg/1677069773437.jpg" class="card-img-top" alt="Card Title">
                     <div class="card-body">
                         <h5 class="card-title">Sergio Perez</h5>
                         <p class="card-text">Sergio "Checo" Pérez Mendoza is a Mexican racing driver who races in Formula One for Red Bull Racing, having previously driven for Sauber, McLaren, Force India, and Racing Point. He has won six F1 Grand Prix races</p>
@@ -65,7 +66,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card" style="background-color: rgb(10, 143, 238);">
-                    <img src="https://media.formula1.com/content/dam/fom-website/manual/DriverGalleries2023/Leclerc/1580828031-16by9South.jpg.img.1920.medium.jpg/1692113487752.jpg" class="card-img-top" alt="Card Title">
+                    <img src="https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/leclerc.jpg.img.1920.medium.jpg/1677069223130.jpg" class="card-img-top" alt="Card Title">
                     <div class="card-body">
                         <h5 class="card-title">Charles Leclerc</h5>
                         <p class="card-text">Charles Marc Hervé Perceval Leclerc is a Monégasque racing driver, currently racing in Formula One for Scuderia Ferrari,former Sauber Driver.Leclerc has achieved 5 race wins and 20 pole positions for Scuderia Ferrari in Formula One.</p>
@@ -75,7 +76,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card" style="background-color: rgb(10, 143, 238);">
-                    <img src="https://media.formula1.com/content/dam/fom-website/manual/DriverGalleries2023/Sainz/1580492253-16by9North.jpg.img.1920.medium.jpg/1692288079056.jpg" class="card-img-top" alt="Card Title">
+                    <img src="https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/sainz.jpg.img.1920.medium.jpg/1677069189406.jpg" class="card-img-top" alt="Card Title">
                     <div class="card-body">
                         <h5 class="card-title">Carlos Sainz</h5>
                         <p class="card-text">Carlos Sainz Jr. current Ferrari Driver,Right After entering F1 at Toro Rosso in 2015,Sainz quickly showed his fighting spirit.A tenacious racer,puting the car on the edge making his way through the pack.No wonder Sainz has earned the nickname Chilli.</p>
@@ -85,7 +86,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card" style="background-color: rgb(10, 143, 238);">
-                    <img src="https://th.bing.com/th?id=OIF.bs3uy2A2XxYeAxjYYiA4%2fA&pid=ImgDet&rs=1" class="card-img-top" alt="Card Title">
+                    <img src="https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/alonso.jpg.img.1920.medium.jpg/1677244577162.jpg" class="card-img-top" alt="Card Title">
                     <div class="card-body">
                         <h5 class="card-title">Fernando Alonso</h5>
                         <p class="card-text">Fernando Alonso is a Spanish racing driver currently competing for Aston Martin in Formula One. He won the series' World Drivers' Championship in 2005 and 2006 with Renault, and has also driven for McLaren, Ferrari, and Minardi.He had a total of 32 Wins.</p>
@@ -95,7 +96,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card" style="background-color: rgb(10, 143, 238);">
-                    <img src="https://th.bing.com/th/id/OIP.JrRXQpBUXSdHbuosCgiA3AAAAA?w=335&h=176&c=7&r=0&o=5&pid=1.7" class="card-img-top" alt="Card Title" >
+                    <img src="https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/russell.jpg.img.1920.medium.jpg/1677069334466.jpg7" class="card-img-top" alt="Card Title" >
                     <div class="card-body">
                         <h5 class="card-title">George Russell</h5>
                         <p class="card-text">George William Russell is a British racing driver currently competing in Formula One for Mercedes.He previously raced for Williams from 2019 to 2021.Russell has achieved 1 victory,1 pole position,6 fastest laps and 10 podium finishes.</p>
@@ -105,10 +106,10 @@
             </div>
             <div class="col-md-4">
                 <div class="card" style="background-color: rgb(10, 143, 238);">
-                    <img src="https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2021/05/23190922/Lando-Norris-PA3-1200x630.jpg" class="card-img-top" alt="Card Title">
+                    <img src="https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/norris.jpg.img.1920.medium.jpg/1677069505471.jpg" class="card-img-top" alt="Card Title">
                     <div class="card-body">
                         <h5 class="card-title">Lando Norris</h5>
-                        <p class="card-text">Sergio "Checo" Pérez Mendoza is a Mexican racing driver who races in Formula One for Red Bull Racing, having previously driven for Sauber, McLaren, Force India, and Racing Point. He has won six F1 Grand Prix races</p>
+                        <p class="card-text">Lando Norrisis a British and Belgian racing driver currently competing in Formula One with McLaren, racing under the British flag. He won the MSA Formula championship in 2015, and the Toyota Racing Series, Eurocup Formula Renault 2.</p>
                         <a href="#" class="btn btn-primary">More Details</a>
                     </div>
                 </div>
@@ -118,31 +119,40 @@
                     <img src="https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/gasly.jpg.img.1920.medium.jpg/1676983081984.jpg" class="card-img-top" alt="Card Title">
                     <div class="card-body">
                         <h5 class="card-title">Pierre Gasly</h5>
-                        <p class="card-text">Sergio "Checo" Pérez Mendoza is a Mexican racing driver who races in Formula One for Red Bull Racing, having previously driven for Sauber, McLaren, Force India, and Racing Point. He has won six F1 Grand Prix races</p>
+                        <p class="card-text">Pierre Gasly is a French racing driver currently competing in Formula One for Alpine. Gasly achieved his first podium at the 2019 Brazilian Grand Prix, finishing second. He won at the 2020 Italian Grand Prix while driving for AlphaTauri.</p>
                         <a href="#" class="btn btn-primary">More Details</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card" style="background-color: rgb(10, 143, 238);">
-                    <img src="https://image-cdn.essentiallysports.com/wp-content/uploads/20200325143718/skysports-daniel-ricciardo_4932279.jpg" class="card-img-top" alt="Card Title">
+                    <img src="https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/ricciardo.jpg.img.1920.medium.jpg/1689928543988.jpg" class="card-img-top" alt="Card Title">
                     <div class="card-body">
                         <h5 class="card-title">Daniel Riccardo</h5>
-                        <p class="card-text">Sergio "Checo" Pérez Mendoza is a Mexican racing driver who races in Formula One for Red Bull Racing, having previously driven for Sauber, McLaren, Force India, and Racing Point. He has won six F1 Grand Prix races</p>
+                        <p class="card-text">Daniel Ricciardois an Australian and Italian racing driver currently competing in Formula One for Scuderia AlphaTauri under the Australian flag. He has achieved 8 Grand Prix victories and 32 podiums in Formula One.</p>
                         <a href="#" class="btn btn-primary">More Details</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card" style="background-color: rgb(10, 143, 238);">
-                    <img src="https://www.si.com/.image/t_share/MTg5ODI2NDA2MzU4NzIyMjM2/perez-win-monaco.jpg" class="card-img-top" alt="Card Title">
+                    <img src="https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/piastri.jpg.img.1920.medium.jpg/1676983075734.jpg" class="card-img-top" alt="Card Title">
                     <div class="card-body">
-                        <h5 class="card-title">Sergio Perez</h5>
-                        <p class="card-text">Sergio "Checo" Pérez Mendoza is a Mexican racing driver who races in Formula One for Red Bull Racing, having previously driven for Sauber, McLaren, Force India, and Racing Point. He has won six F1 Grand Prix races</p>
+                        <h5 class="card-title">Oscar Piastri</h5>
+                        <p class="card-text">Oscar Jack Piastri (born 6 April 2001) is an Australian racing driver currently competing in Formula One for McLaren.He won the 2019 Formula Renault Eurocup with R-ace GP, and won the 2020 FIA Formula 3 Championship and 2021 Formula 2 Championship with Prema Racing.</p>
                         <a href="#" class="btn btn-primary">More Details</a>
                     </div>
                 </div>
             </div>
+            <nav class="navbar" style="margin-bottom: 10px; font-family: fantasy;">
+                <div class="container-fluid" >
+                    <ul type="none" style="display: flex; float: right;">
+                        <li><a class="navbar-brand" href="./index.html">TEAMS</a></li>
+                        <li><a class="navbar-brand" href="./index.html">STATS</a></li>
+                        <li style="font-family: fantasy; float: right; margin-left: 100vh; font-size: xx-large;">Thank You</li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </div>
 </body>
